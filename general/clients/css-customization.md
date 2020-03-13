@@ -184,7 +184,7 @@ Modifies the color of the left menu panel.
 .mainDrawer-scrollContainer { color: yellow; }
 ```
 
-![](https://edgementality.imgur.com/all)
+![](https://i.imgur.com/W7RDOcD.png)
 
 #### General Page
 
