@@ -11,7 +11,7 @@ In "Dashboard>General", the "Custom CSS" field can be used to enter any override
 
 If you have little or no experience with CSS, various resources and tutorials can be found online, together with using the below modifications as examples it is quite easy to get started making your own changes to your Jellyfin instance.
 
-![](~/images/custom-css-customcssfield.png)
+![](https://i.imgur.com/iDFv0Zr.png)
 
 ## General information about CSS
 
@@ -50,7 +50,7 @@ This will affect the played/watched indicator. Replace the color hex with any va
 
 **Without mod**
 
-![](~/images/custom-css-normalwatched.png)
+![](https://i.imgur.com/nCEqL20.png)
 
 **Green**
 
@@ -58,7 +58,7 @@ This will affect the played/watched indicator. Replace the color hex with any va
 .playedIndicator { background: #5dd000; }
 ```
 
-![](~/images/custom-css-greenwatched.png)
+![](https://i.imgur.com/0H19qSE.png)
 
 **Transparent dark using RGBA hex value**
 
@@ -67,7 +67,7 @@ This will affect the played/watched indicator. Replace the color hex with any va
 .playedIndicator {background: #00000058;}
 ```
 
-![](~/images/custom-css-transparentwatched.png)
+![](https://i.imgur.com/AqgnM4e.png)
 
 #### Make top menu transparent
 
@@ -91,7 +91,7 @@ Enlarges the tab buttons, suggested, genres, etc. By default they are really dam
 ```
 
 **The enlarged tab buttons and transparent menu look like this:**
-![](~/images/custom-css-transparenttopbarenlargedtabs.png)
+![](https://i.imgur.com/IGh5BpX.png)
 
 #### Minimalistic login page
 
@@ -110,7 +110,7 @@ This looks even better together with the transparent top menu.
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
 ```
 
-![](~/images/custom-css-minimallogin.png)
+![](https://i.imgur.com/DZJ9cp3.png)
 
 #### Stylized episode previews
 
@@ -123,7 +123,7 @@ The episode previews in season view are sized based on horizontal resolution, th
 .secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
 ```
 
-![](~/images/custom-css-episodepreview.png)
+![](https://i.imgur.com/XSuGQql.png)
 
 #### Stylized and smaller cast info
 
@@ -149,7 +149,7 @@ This will drastically change the style of cast info. Into something very similar
 #castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {margin:auto;}
 ```
 
-![](~/images/custom-css-stylizedcast.png)
+![](https://i.imgur.com/LVtxBBn.png)
 
 #### Background Color
 
@@ -174,7 +174,7 @@ This modifies the colors of the cast, search and user buttons in the top right.
 .headerRight { color: yellow; }
 ```
 
-![](~/images/custom-css-rightheader.png)
+![](https://i.imgur.com/WucxeeW.png)
 
 #### Console Panel
 
@@ -184,7 +184,7 @@ Modifies the color of the left menu panel.
 .mainDrawer-scrollContainer { color: yellow; }
 ```
 
-![](~/images/custom-css-consolepanel.png)
+![](https://edgementality.imgur.com/all)
 
 #### General Page
 
@@ -192,7 +192,7 @@ Modifies the color of the left menu panel.
 .dashboardGeneralForm { color: yellow; }
 ```
 
-![](~/images/custom-css-generalcolor.png)
+![](https://i.imgur.com/Q2M10ui.png)
 
 
 #### Border Color
@@ -209,7 +209,7 @@ This will affect the border color of highlighet(selected) text fields and drop d
 .emby-input:focus, .emby-textarea:focus, .emby-select-withcolor { border-color: #ffffff !important; }
 ```
 
-![](~/images/custom-css-bordercolor.png)
+![](https://i.imgur.com/KPZjaCd.png)
 
 #### Full Header Mod
 
